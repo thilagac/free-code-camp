@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Accordian from './component/accordian';
+import ImageSlider from './component/image slidder';
+import LoadMoreData from './component/load-more-data';
+import RandomColor from './component/random';
+import StarRating from './component/star-rating';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* accordian component */}
+     {/* <Accordian/> */}
+     {/* random color component */}
+     {/* <RandomColor/> */}
+     {/* star rating */}
+     {/* <StarRating noOfStars={10}/> */}
+     {/* image slider component */}
+     {/* <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        page={"1"}
+        limit={"4"}
+      /> */}
+      {/* LoadMore product component */}
+      <LoadMoreData/>
+      
     </div>
   );
 }
